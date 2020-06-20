@@ -10,7 +10,7 @@ We have a track in our [tracking pit](https://github.com/TrackerLounge/ThreeBoxT
 # Steps to complete
 To do this we will:
 - Use an ordinary point and shoot camera (e.g. mine is an older Casio Exilim 12.1 Mega-pixel) to take ~30-40 pictures of the track from all angles.
-- Use Meshroom or Regard3D free software to convert jpg images into a digital mesh model.
+- Use Meshroom (if you have a graphics card that supports CUDA) or Regard3D (if you don't have a graphics card). Both are free software to convert jpg images into a digital mesh model using photogrammetry techniques.
 - Use Blender3d to cleanup the mesh, fill any holes, and preform post-processing or analysis.
 
 # Prepping for the Photoshoot
@@ -29,3 +29,5 @@ To help provide the image with hard edges, I place some cardboard cuttings from 
 <img src='/files/scaledAndEdgeDetected.JPG' width=400>
 
 I don't know if Meshroom or Regard3D use image scaling or edge-detection but I suspect they do and the photogrammetry seems to work much better/faster when I prepare the track in this way. Note: the edges of the sand container also help with this but are not always distiguishable from all angles.
+
+# Additional Resources
