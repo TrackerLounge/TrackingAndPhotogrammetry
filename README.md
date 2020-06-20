@@ -31,3 +31,5 @@ To help provide the image with hard edges, I place some cardboard cuttings from 
 I don't know if Meshroom or Regard3D use image scaling or edge-detection but I suspect they do and the photogrammetry seems to work much better/faster when I prepare the track in this way. Note: the edges of the sand container also help with this but are not always distiguishable from all angles.
 
 # Additional Resources
+I learned how to use Meshroom and Regard3D for Photogrammetry from a number of excellent Youtube videos.
+For example, check out: [How to 3D Photoscan Easy and Free!](https://www.youtube.com/watch?v=k4NTf0hMjtY)
