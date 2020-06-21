@@ -38,6 +38,9 @@ If you would like to take a look at the mesh in blender, the track.blend file ca
 [track.zip Compressed Blender File](files/track.zip)
 Note: the file is pretty big - 35 MB. Github wouldn't let me upload it uncompressed. I zip compressed the track.blend to track.zip. In compressed form it is 14 MB, still big but not too big for Github.
 
+# Research conducted with track digital models
+See [Experiments with Image Processing, Computer Vision, and Machine Learning and Tracking](https://github.com/TrackerLounge/TrackingAndComputerVision)
+
 # Additional Resources
 I learned how to use Meshroom and Regard3D for Photogrammetry from a number of excellent Youtube videos.
 For example, check out: [How to 3D Photoscan Easy and Free!](https://www.youtube.com/watch?v=k4NTf0hMjtY)
