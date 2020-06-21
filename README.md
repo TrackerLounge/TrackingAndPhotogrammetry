@@ -30,6 +30,12 @@ To help provide the image with hard edges, I place some cardboard cuttings from 
 
 I don't know if Meshroom or Regard3D use image scaling or edge-detection but I suspect they do and the photogrammetry seems to work much better/faster when I prepare the track in this way. Note: the edges of the sand container also help with this but are not always distiguishable from all angles.
 
+# Blender File
+If you would like to take a look at the mesh in blender, the track.blend file can be downloaded from:
+<a id="raw-url" href="https://raw.githubusercontent.com/TrackerLounge/TrackingAndPhotogrammetry/master/files/track.zip">Download FILE - track.zip</a>
+[track.zip Compressed Blender File](files/track.zip)
+Note: the file is pretty big - 35 MB. Github wouldn't let me upload it uncompressed. I zip compressed the track.blend to track.zip. In compressed form it is 14 MB, still big but not too big for Github.
+
 # Additional Resources
 I learned how to use Meshroom and Regard3D for Photogrammetry from a number of excellent Youtube videos.
 For example, check out: [How to 3D Photoscan Easy and Free!](https://www.youtube.com/watch?v=k4NTf0hMjtY)
