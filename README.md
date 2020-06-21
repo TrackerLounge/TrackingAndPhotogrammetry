@@ -24,13 +24,21 @@ I have a very simple setup. I have a LED shoplight taped to a 2x4, resting on tw
 
 Sand, as I have learned from [Experiments with Image Processing, Computer Vision, and Machine Learning and Tracking](https://github.com/TrackerLounge/TrackingAndComputerVision), is noisy. Image processing algorithems really want hard edges to work with in lots of cases. Sand doesn't offer those hard edges. Photogrammetry does better if it can find unique objects in the scene that have hard edges and can be seen at many different scales (e.g. if you scale the image from 4000x3000 pixels, to 400x300 pixels, can you still see those unique objects with unique edges?)
 
-To help provide the image with hard edges, I place some cardboard cuttings from a Ziploc box in the scene. Thes have a unique color that makes them easy to tell from the background. They are large enough to be visible if the images are scaled down in pixel size. They produce clean edges if I run an edge-detection algorithm (e.g. Canny Edge Detection, Sobel, Laplace, Differance of Guassian, etc.)
+It is a good idea to assume that your images will be scaled (made smaller) at some point in the image processing pipeline.
+It is very common for image processing pipelines to create a smaller copy of the original file and then try to do as much work as possible on that smaller image rather than the original image. Depending on the scaling, the reduction in number of pixels processed can be very large. For example, if my original images are 4000x3000 pixels, there are a total of 12,000,000 pixels per image. If That image is scaled to 400x300 pixels, there are a total of 120,000 pixels per image. I typically use about 40 images per track in the photogrammetry process. Unscaled, we have 480,000,000 pixels to process. Scaled, we have just 4,800,000 pixels. The difference in processing time between full and scaled images can be huge - measured in hours. 
+<img src='/files/scaledImage.jpg' width=800>
+
+The danger of scaling is that you can lose track of fine details. Tracks are all about very fine details that are easily lost during scaling. 
+
+To help provide the image with hard edges while scaling, I place some cardboard cuttings from a Ziploc box in the scene. Thes have a unique color that makes them easy to tell from the background. They are large enough to be visible if the images are scaled down in pixel size. They produce clean edges if I run an edge-detection algorithm (e.g. Canny Edge Detection, Sobel, Laplace, Differance of Guassian, etc.)
 
 <img src='/files/CIMG2579.JPG' width=800>
 
 <img src='/files/scaledAndEdgeDetected.JPG' width=400>
 
 I don't know if Meshroom or Regard3D use image scaling or edge-detection but I suspect they do and the photogrammetry seems to work much better/faster when I prepare the track in this way. Note: the edges of the sand container also help with this but are not always distiguishable from all angles.
+
+
 
 # Blender File
 If you would like to take a look at the mesh in blender, the track.blend file can be downloaded from:
