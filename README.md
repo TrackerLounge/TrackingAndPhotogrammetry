@@ -7,6 +7,8 @@ Using Photogrammetry to convert a track or footprint into a digital model for fu
 We have a track in our [tracking pit](https://github.com/TrackerLounge/ThreeBoxTrackingPitForTheHomeShop) that we want to convert to a digital model.
 <img src='/files/CIMG2574.JPG' width=800>
 
+<img src='/files/trackAsDigitalModel.JPG' width=800>
+
 # Steps to complete
 To do this we will:
 - Use an ordinary point and shoot camera (e.g. mine is an older Casio Exilim 12.1 Mega-pixel) to take ~30-40 pictures of the track from all angles.
