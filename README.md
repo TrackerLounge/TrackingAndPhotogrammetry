@@ -38,7 +38,8 @@ To help provide the image with hard edges while scaling, I place some cardboard 
 
 I don't know if Meshroom or Regard3D use image scaling or edge-detection but I suspect they do and the photogrammetry seems to work much better/faster when I prepare the track in this way. Note: the edges of the sand container also help with this but are not always distiguishable from all angles.
 
-
+# Youtube Video of process
+[![Alt text](https://github.com/TrackerLounge/TrackingAndPhotogrammetry/blob/master/files/slashScreen.JPG)](https://www.youtube.com/watch?v=6clAcxvFLSM)
 
 # Blender File
 If you would like to take a look at the mesh in blender, the track.blend file can be downloaded from:
