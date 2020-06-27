@@ -44,11 +44,19 @@ I don't know if Meshroom or Regard3D use image scaling or edge-detection but I s
 # Youtube Video of process
 [![Alt text](https://github.com/TrackerLounge/TrackingAndPhotogrammetry/blob/master/files/slashScreen.JPG)](https://www.youtube.com/watch?v=6clAcxvFLSM)
 
+For the same process in carpeting see
+[![Alt text](https://github.com/TrackerLounge/TrackingAndPhotogrammetry/blob/master/files/WillItTrackPhotogrammetryOnCarpet.jpg)](https://www.youtube.com/watch?v=HMa4Q8ld7XI)
+
 # Blender File
 If you would like to take a look at the mesh in blender, the track.blend file can be downloaded from:
 <a id="raw-url" href="https://raw.githubusercontent.com/TrackerLounge/TrackingAndPhotogrammetry/master/files/track.zip">Download FILE - track.zip</a>
 [track.zip Compressed Blender File](files/track.zip)
 Note: the file is pretty big - 35 MB. Github wouldn't let me upload it uncompressed. I zip compressed the track.blend to track.zip. In compressed form it is 14 MB, still big but not too big for Github.
+
+Additional files:
+Track in carpeting
+
+<a id="raw-url" href="https://raw.githubusercontent.com/TrackerLounge/TrackingAndPhotogrammetry/master/files/trackOnCarpet_lite.zip">Download FILE - trackOnCarpet_lite.zip</a>
 
 # Research conducted with track digital models
 See [Experiments with Image Processing, Computer Vision, and Machine Learning and Tracking](https://github.com/TrackerLounge/TrackingAndComputerVision)
