@@ -44,6 +44,10 @@ I don't know if Meshroom or Regard3D use image scaling or edge-detection but I s
 # Youtube Video of process
 [![Alt text](https://github.com/TrackerLounge/TrackingAndPhotogrammetry/blob/master/files/slashScreen.JPG)](https://www.youtube.com/watch?v=6clAcxvFLSM)
 
+If you are interested in how real world scale relates to the scale of the 3D model see
+[![Alt text](https://github.com/TrackerLounge/TrackingAndPhotogrammetry/blob/master/files/compareTrackAndModelScaleSplash.jpg)](https://www.youtube.com/watch?v=G0rRLvM_xIw)
+
+
 For the same process in carpeting see
 [![Alt text](https://github.com/TrackerLounge/TrackingAndPhotogrammetry/blob/master/files/WillItTrackPhotogrammetryOnCarpet.jpg)](https://www.youtube.com/watch?v=HMa4Q8ld7XI)
 
