@@ -37,6 +37,7 @@ To help provide the image with hard edges while scaling, I place some cardboard 
 The Photogrammetry process is processor expensive. It can take a long time. Sometimes it takes just 12 minutes. In other cases I have seen it run for 23 hours. (A graphics card and powerful processor can speed up the process). It may produce a good model or it may produce garbage. 
 Before running photogrammetry on a bunch of images, I like to scale the image in Gimp and apply edge detection to see what a sample image looks like. This helps me avoid wasting time trying to process files that are doome to produce garbage. If I cannot see hard edges in a scaled image, neither will an image processing algorithm.
 Here is an example of a scaled imaged that has edge detection run on it. Notice that we have solid edges to work with.
+
 <img src='/files/scaledAndEdgeDetected.JPG' width=400>
 
 I don't know if Meshroom or Regard3D use image scaling or edge-detection but I suspect they do and the photogrammetry seems to work much better/faster when I prepare the track in this way. Note: the edges of the sand container also help with this but are not always distiguishable from all angles.
